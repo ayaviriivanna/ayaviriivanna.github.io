@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos Turísticos de Bolivia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+    
+        <div class="header-top">
+          <div class="container">
+    
+            <a href="tel:+01123456790" class="helpline-box">
+    
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+    
+              <div class="wrapper">
+                <p class="helpline-title">Para más consultas:</p>
+    
+                <p class="helpline-number">+591 67248949</p>
+              </div>
+    
+            </a>
+    
+            <a href="#" class="logo">
+              <img src="./img/logo-blue.png" alt="Tourly logo">
+            </a>
+    
+            <div class="header-btn-group">
+    
+              <button class="search-btn" aria-label="Search">
+                <ion-icon name="search"></ion-icon>
+              </button>
+    
+              <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+              </button>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="header-bottom">
+          <div class="container">
+    
+            <ul class="social-list">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+            <nav class="navbar" data-navbar>
+    
+              <div class="navbar-top">
+    
+                <a href="#" class="logo">
+                  <img src="./img/logo-blue.png" alt="Tourly logo">
+                </a>
+    
+                <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+    
+              </div>
+    
+              <ul class="navbar-list">
+    
+                <li>
+                  <a href="../index.html" class="navbar-link" data-nav-link>Inicio</a>
+                </li>
+    
+                <li>
+                  <a href="../nosotros/nosotros.html" class="navbar-link" data-nav-link>Nosotros</a>
+                </li>
+    
+                <li>
+                  <a href="../destinos/destinos.html" class="navbar-link" data-nav-link>Destinos</a>
+                </li>
+    
+                <li>
+                  <a href="./tour.html" class="navbar-link" data-nav-link>Tours</a>
+                </li>
+    
+                <li>
+                  <a href="../mice/eventos.html" class="navbar-link" data-nav-link>MICE</a>
+                </li>
+    
+                <li>
+                  <a href="../contactos/contactos.html" class="navbar-link" data-nav-link>Contactos</a>
+                </li>
+    
+              </ul>
+    
+            </nav>
+    
+            <button class="btn btn-primary">Reservar ahora</button>
+    
+          </div>
+        </div>
+    
+    </header>
+    <section class="destinations-hero">
+        <div class="hero-bg">
+            <h3>Explora nuestros</h3>
+            <h2>Tours</h2>
+      
+            <p class="text">
+                Descubre experiencias únicas en Bolivia con nuestros tours cuidadosamente diseñados. 
+                Desde aventuras en el Salar de Uyuni hasta expediciones en la selva amazónica, 
+                ofrecemos viajes inolvidables para cada tipo de viajero.
+            </p>
+        </div>
+    </section>
+    <main>
+        <!-- TOURS CLÁSICOS -->
+        <section class="tours-section">
+           <h2 class="section-title">TOURS CLÁSICOS</h2>
+           <p class="section-description">Explora los destinos más emblemáticos y reconocidos de Bolivia</p>
+           
+           <div class="tours-grid">
+               <!-- Tour Card 1 -->
+               <div class="tour-card">
+                   <img src="./image/tiwanaku.jpeg" alt="Tiwanaku">
+                   <div class="tour-content">
+                       <h3>TIWANAKU Y LAGO TITICACA</h3>
+                       <p>Visita el centro ceremonial más importante de la cultura Tiwanaku y navega por el lago más alto del mundo.</p>
+                       <div class="tour-details">
+                           <span>2D/1N</span>
+                           <span>max 12</span>
+                           <span>La Paz</span>
+                       </div>
+                       <div class="tour-highlights">
+                           <h4>LUGARES DESTACADOS</h4>
+                           <ul>
+                               <li><i class="fas fa-map-marker-alt"></i> Complejo arqueológico de Tiwanaku</li>
+                               <li><i class="fas fa-map-marker-alt"></i> Copacabana</li>
+                               <li><i class="fas fa-map-marker-alt"></i> Isla del Sol e Isla de la Luna</li>
+                           </ul>
+                       </div>
+                       <div class="tour-price">
+                           <div class="price">$150 <span>/por persona</span></div>
+                       </div>
+                   </div>
+               </div>
+   
+               <!-- Tour Card 2 -->
+               <div class="tour-card">
+                   <img src="./image/salar.webp" alt="Salar de Uyuni">
+                   <div class="tour-content">
+                       <h3>SALAR DE UYUNI</h3>
+                       <p>Explora el salar más grande del mundo, incluyendo el desierto de Siloli y las lagunas coloradas.</p>
+                       <div class="tour-details">
+                           <span>3D/2N</span>
+                           <span>max 6</span>
+                           <span>Uyuni</span>
+                       </div>
+                       <div class="tour-highlights">
+                           <h4>LUGARES DESTACADOS</h4>
+                           <ul>
+                               <li><i class="fas fa-map-marker-alt"></i> Salar de Uyuni y Hotel de Sal</li>
+                               <li><i class="fas fa-map-marker-alt"></i> Laguna Colorada y Verde</li>
+                               <li><i class="fas fa-map-marker-alt"></i> Géiseres Sol de Mañana</li>
+                           </ul>
+                       </div>
+                       <div class="tour-price">
+                           <div class="price">$250 <span>/por persona</span></div>
+                       </div>
+                   </div>
+               </div>
+   
+               <!-- Tour Card 3 -->
+               <div class="tour-card">
+                   <img src="./image/sucre.jpg" alt="Sucre">
+                   <div class="tour-content">
+                       <h3>SUCRE: CIUDAD BLANCA</h3>
+                       <p>Explora la riqueza histórica y cultural de la ciudad más emblemática de Bolivia.</p>
+                       <div class="tour-details">
+                           <span>1D</span>
+                           <span>max 10</span>
+                           <span>Sucre</span>
+                       </div>
+                       <div class="tour-highlights">
+                           <h4>LUGARES DESTACADOS</h4>
+                           <ul>
+                               <li><i class="fas fa-map-marker-alt"></i> Casa de la Libertad</li>
+                               <li><i class="fas fa-map-marker-alt"></i> Parque Cretácico</li>
+                               <li><i class="fas fa-map-marker-alt"></i> Mirador La Recoleta</li>
+                           </ul>
+                       </div>
+                       <div class="tour-price">
+                           <div class="price">$75 <span>/por persona</span></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+     
+    <!-- TOURS TEMÁTICOS -->
+   <section class="tours-section">
+       <h2 class="section-title">TOURS TEMÁTICOS</h2>
+       <p class="section-description">Experiencias únicas enfocadas en tus intereses específicos</p>
+       
+       <div class="tours-grid">
+           <!-- Tour Card 1 -->
+           <div class="tour-card">
+               <img src="./image/mercado.jpg" alt="Tour Gastronómico">
+               <div class="tour-content">
+                   <h3>RUTA GASTRONÓMICA BOLIVIANA</h3>
+                   <p>Descubre los sabores auténticos de Bolivia, desde mercados locales hasta clases de cocina tradicional.</p>
+                   <div class="tour-details">
+                       <span>1D</span>
+                       <span>max 8</span>
+                       <span>La Paz</span>
+                   </div>
+   
+                   <!-- Destacados del Tour -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Mercado de las Brujas - degustación de productos locales</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Restaurante tradicional paceño</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Clases de cocina boliviana en un taller local</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$75 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+   
+           <!-- Tour Card 2 -->
+           <div class="tour-card">
+               <img src="./image/parquecreatico.jpg" alt="Tour Cultural">
+               <div class="tour-content">
+                   <h3>CAMINO DE LA CULTURA BOLIVIANA</h3>
+                   <p>Sumérgete en las tradiciones y costumbres de Bolivia visitando lugares históricos y culturales.</p>
+                   <div class="tour-details">
+                       <span>2D</span>
+                       <span>max 10</span>
+                       <span>Sucre</span>
+                   </div>
+   
+                   <!-- Destacados del Tour -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Casa de la Libertad</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Parque Cretácico</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Museo de Arte Indígena</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$120 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+   
+           <!-- Tour Card 3 -->
+           <div class="tour-card">
+               <img src="./image/valleLuna.jpg" alt="Tour Natural">
+               <div class="tour-content">
+                   <h3>EXPLORACIÓN DE LOS ANDES</h3>
+                   <p>Admira los paisajes más impresionantes de Bolivia y vive aventuras inolvidables.</p>
+                   <div class="tour-details">
+                       <span>3D</span>
+                       <span>max 12</span>
+                       <span>Cochabamba</span>
+                   </div>
+   
+                   <!-- Destacados del Tour -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Parque Nacional Tunari</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Laguna Corani</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Valle de la Luna de Cochabamba</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$200 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+     
+     <!-- CONEXIONES -->
+   <!-- CONEXIONES -->
+   <section class="tours-section">
+       <h2 class="section-title">CONEXIONES</h2>
+       <p class="section-description">Traslados y rutas que conectan los principales destinos turísticos</p>
+       
+       <div class="tours-grid">
+           <!-- Conexión Card 1 -->
+           <div class="tour-card">
+               <img src="./image/llamas.JPG" alt="Conexión La Paz - Uyuni">
+               <div class="tour-content">
+                   <h3>LA PAZ - UYUNI DIRECTO</h3>
+                   <p>Servicio de transporte ejecutivo con guía bilingüe y paradas en puntos de interés.</p>
+                   <div class="tour-details">
+                       <span>8H</span>
+                       <span>max 15</span>
+                       <span>La Paz - Uyuni</span>
+                   </div>
+   
+                   <!-- Destacados del Tour -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Valle de la Luna - vistas impresionantes</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Mirador de Patacamaya</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Llamas y alpacas en el altiplano</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$45 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+   
+           <!-- Conexión Card 2 -->
+           <div class="tour-card">
+               <img src="./image/colchani.jpg" alt="Conexión Uyuni - Potosí">
+               <div class="tour-content">
+                   <h3>UYUNI - POTOSÍ</h3>
+                   <p>Conexión rápida y segura entre dos de los destinos más importantes de Bolivia.</p>
+                   <div class="tour-details">
+                       <span>6H</span>
+                       <span>max 10</span>
+                       <span>Uyuni - Potosí</span>
+                   </div>
+   
+                   <!-- Destacados del Tour -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Salar de Uyuni - borde sur</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Pueblo de Colchani</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Mirador de las montañas andinas</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$40 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+   
+           <!-- Conexión Card 3 -->
+           <div class="tour-card">
+               <img src="./image/valleCondores.webp" alt="Conexión Sucre - Tarija">
+               <div class="tour-content">
+                   <h3>SUCRE - TARIJA</h3>
+                   <p>Disfruta de un cómodo traslado entre la ciudad blanca y la capital del vino boliviano.</p>
+                   <div class="tour-details">
+                       <span>7H</span>
+                       <span>max 12</span>
+                       <span>Sucre - Tarija</span>
+                   </div>
+   
+                   <!-- Destacados del Tour -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Puente colgante de Camata</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Valle de los Cóndores</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Viñedos de Tarija</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$50 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   <!-- CAMPAMENTOS -->
+   <section class="tours-section">
+       <h2 class="section-title">CAMPAMENTOS</h2>
+       <p class="section-description">Experiencias únicas en contacto directo con la naturaleza</p>
+       
+       <div class="tours-grid">
+           <!-- Campamento Card 1 -->
+           <div class="tour-card">
+               <img src="./image/rioTuichi.jpg" alt="Campamento Madidi">
+               <div class="tour-content">
+                   <h3>CAMPAMENTO MADIDI</h3>
+                   <p>Aventura en el corazón de la selva amazónica boliviana con actividades de supervivencia y observación de fauna.</p>
+                   <div class="tour-details">
+                       <span>3D/2N</span>
+                       <span>max 6</span>
+                       <span>Parque Madidi</span>
+                   </div>
+   
+                   <!-- Lugares Destacados -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Río Tuichi - paseos en canoa</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Mirador de la selva - vistas panorámicas</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Sendero de los jaguares - caminata guiada</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$290 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+   
+           <!-- Campamento Card 2 -->
+           <div class="tour-card">
+               <img src="./image/volcanTunupa.png" alt="Campamento Altiplano">
+               <div class="tour-content">
+                   <h3>CAMPAMENTO ALTIPLANO</h3>
+                   <p>Explora las alturas del altiplano boliviano con noches estrelladas y paisajes únicos.</p>
+                   <div class="tour-details">
+                       <span>2D/1N</span>
+                       <span>max 8</span>
+                       <span>Altiplano Boliviano</span>
+                   </div>
+   
+                   <!-- Lugares Destacados -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Salar de Uyuni - noche bajo las estrellas</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Laguna Hedionda - avistamiento de flamencos</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Volcán Tunupa - senderismo y vistas panorámicas</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$250 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+   
+           <!-- Campamento Card 3 -->
+           <div class="tour-card">
+               <img src="./image/cataratas.jpg" alt="Campamento Chiquitania">
+               <div class="tour-content">
+                   <h3>CAMPAMENTO CHIQUITANIA</h3>
+                   <p>Conecta con la biodiversidad de la región chiquitana, entre ríos, cascadas y flora exótica.</p>
+                   <div class="tour-details">
+                       <span>4D/3N</span>
+                       <span>max 10</span>
+                       <span>Región Chiquitana</span>
+                   </div>
+   
+                   <!-- Lugares Destacados -->
+                   <div class="tour-highlights">
+                       <h4>LUGARES DESTACADOS</h4>
+                       <ul>
+                           <li><i class="fas fa-map-marker-alt"></i> Cataratas de Aguas Calientes</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Sendero de las Orquídeas</li>
+                           <li><i class="fas fa-map-marker-alt"></i> Misión Jesuítica de San José</li>
+                       </ul>
+                   </div>
+   
+                   <div class="tour-price">
+                       <div class="price">$320 <span>/por persona</span></div>
+                       <button class="reserve-btn">RESERVAR AHORA</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+     
+       </main>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="./img/logo-blue.png" alt="Tourly logo">
+            </a>
+            <p class="footer-text">
+              Magri Turismo es una empresa creada en 1973, con sólida experiencia en organización de viajes dentro y fuera de Bolivia. Con el permanente afán de superar la calidad de servicios, se ha consolidado como una de las empresas líderes del mercado nacional. Actualmente cuenta con certificación de calidad ISO 9001:2008.
+            </p>
+          </div>
+          <div class="footer-contact">
+            <h4 class="contact-title">Nuestros contactos</h4>
+            <p class="contact-text">
+              No dudes en contactarnos y llegar hasta nosotros
+            </p>
+            <ul>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <a href="tel:+01123456790" class="contact-link">+591 67248949</a>
+              </li>
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:info.tourly.com" class="contact-link">info.magryturismo.com</a>
+              </li>
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+  
+                <address>Sucre, Bolivia</address>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-form">
+            <p class="form-text">
+              ¡Suscríbete a nuestro página para más actualizaciones y noticias!
+            </p>
+            <form action="" class="form-wrapper">
+              <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+  
+              <button type="submit" class="btn btn-secondary">Suscribirse</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 <a href="">Roselyn, Ivanna y Mateo</a>. Derechos Reservados
+          </p>
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link">Política de Privacidad</a>
+            </li>
+            <li>
+              <a href="#" class="footer-bottom-link">Terminos & Condiciones</a>
+            </li>
+            <li>
+              <a href="#" class="footer-bottom-link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

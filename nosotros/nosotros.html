@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="nosotros.css" />
+    <title>Nosotros</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo-blue.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./nosotros.html">Nosotros</a></li>
+          <li><a href="../destinos/destinos.html">Destinos</a></li>
+          <li><a href="../tours/tour.html">Tours</a></li>
+          <li><a href="../mice/eventos.html">MICE</a></li>
+          <li><a href="../contactos/contactos.html">Contactos</a></li>
+          <li><button class="btn">Reservar ahora</button></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>MAGRI TURISMO</h1>
+        <p>
+            Una agencia donde vives la mejor experiencia antes, durante y después de tu viaje.
+        </p>
+        <div class="booking">
+          <div class="booking__type" id="booking-type">
+            <div class="active">Solo ida</div>
+            <div>Ida y Vuelta</div>
+            <div>Multiples ciudades</div>
+          </div>
+          <form action="/" class="booking__form">
+            <div class="booking__input">
+              <label for="arrival">Origen</label>
+              <input type="text" placeholder="Arrival" />
+            </div>
+            <div class="booking__input">
+              <label for="departure">Fecha</label>
+              <input type="text" placeholder="Departure" />
+            </div>
+            <div class="booking__input">
+              <label for="date">Día</label>
+              <input type="text" placeholder="Date" />
+            </div>
+          </form>
+          <div class="booking__btn">
+            <button class="btn">Reservar ahora</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">MAGRI TURISMO</h2>
+        <p class="section__description">
+            Más de 50 años creando viajes exclusivos adaptados a tus gustos y necesidades. Descubre el mundo con Magri Turismo
+        </p>
+        <ul>
+          <li>
+            <span><i class="ri-checkbox-circle-line"></i></span>
+            ¡Te llevamos a destinos únicos en el mundo, ya sean culturales, exóticos, eventos deportivos, de relax, de diversión y todo lo que puedas imaginar, el cielo es el límite!
+          </li>
+          <li>
+            <span><i class="ri-checkbox-circle-line"></i></span>
+            Para tu familia, grupo de amigos, pareja, o con quien quieras viajar, te ofrecemos paquetes a medida según tus gustos y necesidades para que disfrutes de un viaje exclusivo.
+          </li>
+        </ul>
+        <div class="about__links">
+          <a href="#">
+            <img src="assets/google-play.png" alt="google-play" />
+          </a>
+          <a href="#">
+            <img src="assets/app-store.png" alt="app-store" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="client" id="client">
+      <div class="section__container client__container">
+        <h2 class="section__header">Nuestros Clientes - Testimonios</h2>
+        <p class="section__description">
+            Descubre las historias de aventura y recuerdos preciados a través de los ojos de nuestros valiosos clientes.
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-1.jpg" alt="client" />
+                <h4>James Rodriguez</h4>
+                <p>Ingeniero de Software</p>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+                <p>
+                    Como viajero frecuente, confío en este sitio web para todos mis viajes. El servicio de atención al cliente 24/7 ha marcado la diferencia.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-2.jpg" alt="client" />
+                <h4>Sarah Thompson</h4>
+                <p>Marketing</p>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+                <p>
+                    Reservar mis vacaciones soñadas fue muy fácil con esta plataforma. La reserva de hotel sin complicaciones hizo que mi viaje fuera inolvidable.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-3.jpg" alt="client" />
+                <h4>Emily Chang</h4>
+                <p>Diseñadora Gráfica</p>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+                <p>
+                    Los guías locales y las experiencias ofrecidas por esta plataforma añadieron una nueva dimensión a mis viajes.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-4.jpg" alt="client" />
+                <h4>Michael Turner</h4>
+                <p>Empresaria</p>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+                <p>
+                    La conveniencia de reservar vuelos, alojamiento y transporte en un solo lugar es un cambio total.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-5.jpg" alt="client" />
+                <h4>David Carter</h4>
+                <p>Aventurero</p>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                    La sección de recursos y consejos de viaje en esta plataforma es un tesoro para quienes buscan aprovechar al máximo sus viajes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#"><img src="assets/logo-blue.png" alt="logo" /></a>
+          </div>
+          <p>
+            Explora el mundo con facilidad y emoción a través de nuestra completa plataforma de Turismo. Tu aventura comienza aquí, donde la planificación sin esfuerzo se encuentra con experiencias inolvidables.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">Bolivia</a>
+            </li>
+            <li>
+              <a href="#">Otros Destinos</a>
+            </li>
+            <li>
+              <a href="#">Tours y Paquetes</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contactos</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +591 67248949
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> 
+                info@magriturismo.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> La Paz - Bolivia
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Suscríbete</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        © Magri Turismo 2023 All Rights Reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
